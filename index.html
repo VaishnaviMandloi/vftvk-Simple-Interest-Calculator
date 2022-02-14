@@ -12,9 +12,9 @@
         Amount <input type="number"  id="principal">  <br/>
        Interest Rate  :
             <input type="range"  id="rate" min="1" step="0.25" max="20" value="10.25">
-        <span id="rate_val">
-           <p>updateRate()</p>
-             <input type="number"  id="rate"> </span> <br/>
+            <span id="rate_val" onchange="updateRate()">
+                
+            </span>
         No. of Years 
         <select id="years">
             <option value="1">1</option>
@@ -31,13 +31,13 @@
         
 
         <button onclick="compute()">Compute Interest</button>
-        <span id="result" onchange="compute()">
-
+        <span id="result" onclick="compute()">
+         
         </span>
     </body>
     <footer>
 
-        &#169; This Calculator belongs to VAISHNAVI MANDLOI
+        &#169; Everyone Can Get Rich
 
 
 </footer>
