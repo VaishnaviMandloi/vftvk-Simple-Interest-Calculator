@@ -6,19 +6,42 @@ body {
 
 h1{
     color:grey;
-    font-family:verdana
+    font-family:verdana;
+    text-align: center;
 }
 
 .maindiv {
     background-color:white;
     color:black;
-    width:300px;
     padding:20px;
     border-radius:25px;
     justify-content: center;
-    margin: 20vh 30vw;
+    margin:0 10vw ;
+    font-weight: bold;
 }
 
 .subdiv{
-    margin-left: 30vw;
+    margin-left: 26vw;
+    padding: 5px;
 }
+
+#rate {
+    margin :5px;
+    margin-left: 14px;
+
+}
+
+ #years{
+    margin :5px;
+    margin-left: 30px;
+} 
+
+button{
+    font-weight: bold;
+    margin: 5px 0;
+} 
+
+input{
+    margin-left: 60px;
+}
+
