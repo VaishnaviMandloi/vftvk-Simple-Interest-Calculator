@@ -16,5 +16,7 @@ h1{
     padding:20px;
     border-radius:25px;
     justify-content: center;
+    margin: auto;
+    width: 50%;
 }
 
